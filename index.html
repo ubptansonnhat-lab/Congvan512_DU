@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triển Khai Cao Điểm 45 Ngày Đêm - UBND Phường Tân Sơn Nhất</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col">
+
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-red-700 via-red-600 to-crimson-800 text-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+                <div>
+                    <div class="flex items-center gap-2 text-red-200 text-xs sm:text-sm font-semibold tracking-wider uppercase">
+                        <span>Đảng bộ TP. Hồ Chí Minh</span>
+                        <span>•</span>
+                        <span>Đảng ủy Phường Tân Sơn Nhất</span>
+                    </div>
+                    <h1 class="text-xl sm:text-2xl lg:text-3xl font-bold mt-1 text-yellow-300 drop-shadow">
+                        HỆ THỐNG TRIỂN KHAI CAO ĐIỂM 45 NGÀY ĐÊM
+                    </h1>
+                    <p class="text-xs sm:text-sm text-slate-100 mt-2 max-w-3xl italic">
+                        "Tổng rà soát, thống kê, phát hiện, đấu tranh, làm sạch địa bàn - Xây dựng nền tảng phục vụ công tác chuyển hóa địa bàn phức tạp về ANTT, tiến tới mục tiêu duy trì phường không ma túy năm 2026 và những năm tiếp theo"
+                    </p>
+                </div>
+                <div class="flex flex-wrap gap-2">
+                    <a href="512- CV TĂNG CƯỜNG ĐẢM BẢO ANTT 45 NGÀY ĐÊM.pdf" download class="inline-flex items-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-slate-900 px-4 py-2.5 rounded-lg text-sm font-bold shadow-md transition-all transform hover:-translate-y-0.5">
+                        <i data-lucide="download"></i>
+                        Tải Công Văn PDF (512-CV/ĐU)
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Thống kê chung -->
+    <section class="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 mt-6">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            <div class="bg-white p-4 rounded-xl shadow-sm border border-slate-200 flex items-center gap-4">
+                <div class="p-3 bg-red-100 text-red-700 rounded-lg">
+                    <i data-lucide="shield-alert" class="w-6 h-6"></i>
+                </div>
+                <div>
+                    <p class="text-xs text-slate-500 font-medium uppercase">Mục tiêu chính</p>
+                    <p class="text-base font-bold text-slate-800">Sạch Ma Túy 2026</p>
+                </div>
+            </div>
+            <div class="bg-white p-4 rounded-xl shadow-sm border border-slate-200 flex items-center gap-4">
+                <div class="p-3 bg-blue-100 text-blue-700 rounded-lg">
+                    <i data-lucide="calendar" class="w-6 h-6"></i>
+                </div>
+                <div>
+                    <p class="text-xs text-slate-500 font-medium uppercase">Thời gian thực hiện</p>
+                    <p class="text-base font-bold text-slate-800">45 Ngày Đêm Cao Điểm</p>
+                </div>
+            </div>
+            <div class="bg-white p-4 rounded-xl shadow-sm border border-slate-200 flex items-center gap-4">
+                <div class="p-3 bg-emerald-100 text-emerald-700 rounded-lg">
+                    <i data-lucide="check-square" class="w-6 h-6"></i>
+                </div>
+                <div>
+                    <p class="text-xs text-slate-500 font-medium uppercase">Địa bàn tự quản</p>
+                    <p class="text-base font-bold text-slate-800">33 Chi Bộ Khu Phố</p>
+                </div>
+            </div>
+            <div class="bg-white p-4 rounded-xl shadow-sm border border-slate-200 flex items-center gap-4">
+                <div class="p-3 bg-amber-100 text-amber-700 rounded-lg">
+                    <i data-lucide="users" class="w-6 h-6"></i>
+                </div>
+                <div>
+                    <p class="text-xs text-slate-500 font-medium uppercase">Lực lượng nòng cốt</p>
+                    <p class="text-base font-bold text-slate-800">Công an & Quân sự</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nội dung chính -->
+    <main class="flex-grow max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-8">
+        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden flex flex-col lg:flex-row min-h-[600px]">
+            
+            <!-- Sidebar điều hướng Tab (Danh sách đơn vị) -->
+            <aside class="w-full lg:w-80 bg-slate-100 border-r border-slate-200 flex flex-col shrink-0">
+                <div class="p-4 border-b border-slate-200 bg-slate-50">
+                    <h2 class="text-sm font-bold text-slate-700 uppercase tracking-wider flex items-center gap-2">
+                        <i data-lucide="layers" class="w-4 h-4 text-red-600"></i>
+                        Đơn Vị Chịu Trách Nhiệm
+                    </h2>
+                    <p class="text-xs text-slate-500 mt-1">Chọn để xem chi tiết phân công chỉ đạo</p>
+                </div>
+                <nav class="flex-1 p-2 space-y-1 overflow-y-auto max-h-[300px] lg:max-h-[600px]" id="unit-tabs">
+                    <!-- Sẽ được tự động kết xuất bằng JS -->
+                </nav>
+            </aside>
+
+            <!-- Khung hiển thị nội dung chi tiết -->
+            <article class="flex-1 p-6 sm:p-8 flex flex-col justify-between">
+                <div id="tab-content-area">
+                    <!-- Sẽ được cập nhật bằng JS -->
+                </div>
+
+                <!-- Footer của Khung nội dung: Ký duyệt và tải liên quan -->
+                <div class="mt-8 pt-6 border-t border-slate-200 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 text-xs text-slate-500">
+                    <div class="flex items-center gap-2">
+                        <i data-lucide="info" class="w-4 h-4 text-blue-500 shrink-0"></i>
+                        <span>Yêu cầu báo cáo thông suốt, kịp thời về Ban Thường vụ Đảng ủy.</span>
+                    </div>
+                    <div class="font-semibold text-slate-700">
+                        Người ký: Bí Thư Lê Hoàng Hà
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </main>
+
+    <!-- Footer Hệ Thống -->
+    <footer class="bg-slate-950 text-slate-400 py-6 text-center border-t border-slate-800 text-xs sm:text-sm">
+        <div class="max-w-7xl mx-auto px-4">
+            <p>© 2026 Ủy ban nhân dân Phường Tân Sơn Nhất - TP. Hồ Chí Minh.</p>
+            <p class="mt-1 text-slate-600">Hệ thống số hóa chỉ đạo Đảng ủy theo Nghị quyết số 02-NQ/TU và Nghị quyết số 20-NQ/ĐU.</p>
+        </div>
+    </footer>
+
+    <!-- JS Logic -->
+    <script>
+        // Dữ liệu nội dung công văn số hóa theo đơn vị
+        const unitsData = [
+            {
+                id: "ubnd",
+                name: "Đảng ủy & UBND Phường",
+                icon: "landmark",
+                role: "Lãnh đạo, chỉ đạo toàn diện",
+                tasks: [
+                    {
+                        title: "Bảo đảm an toàn chính trị & PCCC",
+                        desc: "Chỉ đạo triển khai các biện pháp bảo đảm tình hình an ninh chính trị, trật tự an toàn xã hội, phòng chống cháy, nổ tại cơ quan, đơn vị trên địa bàn phường. Kịp thời chỉ đạo Công an, Quân sự xử lý các tình huống phát sinh."
+                    },
+                    {
+                        title: "Đẩy mạnh phong trào Ban Chỉ đạo 138",
+                        desc: "Chỉ đạo Ban Chỉ đạo 138 phường đẩy mạnh công tác tuyên truyền, vận động, huy động Nhân dân tích cực tham gia bảo đảm an ninh trật tự; tố giác tội phạm; phòng chống cháy nổ; nắm chắc tình hình dư luận xã hội."
+                    },
+                    {
+                        title: "Quản lý kinh doanh & Trật tự Đô thị",
+                        desc: "Phối hợp với Công an rà soát các cơ sở ngành nghề kinh doanh có điều kiện, cơ sở có nghi vấn về ma túy, kinh tế, môi trường, ATTP. Tổ chức ký cam kết đảm bảo vệ sinh ATTP và kiên quyết xử lý sai phạm."
+                    },
+                    {
+                        title: "Xử lý hàng rong & Chợ tự phát trước cổng trường",
+                        desc: "Rà soát trường học có buôn bán hàng rong, lấn chiếm lòng lề đường trước cổng gây mất ATTP và trật tự đô thị. Kiên quyết xóa bỏ chợ tự phát, lập lại trật tự lòng lề đường xanh - sạch - đẹp."
+                    },
+                    {
+                        title: "Đảm bảo kinh phí & Thi đua khen thưởng",
+                        desc: "Đảm bảo kinh phí, trang thiết bị cần thiết cho lực lượng Công an phường và các lực lượng tham gia; kịp thời động viên, khen thưởng tập thể, cá nhân có thành tích xuất sắc trong cao điểm."
+                    }
+                ],
+                legalBasis: "Khoản 2 - Trang 2, 3 của Công văn số 512-CV/ĐU"
+            },
+            {
+                id: "cong-an",
+                name: "Đảng ủy & Công an Phường",
+                icon: "shield",
+                role: "Lực lượng nòng cốt chiến đấu",
+                tasks: [
+                    {
+                        title: "Tham mưu & Đôn đốc thực hiện cao điểm",
+                        desc: "Tham mưu Ban Thường vụ Đảng ủy, Ban Chỉ đạo 138 phường triển khai thực hiện nghiêm, hiệu quả chỉ đạo của cấp trên; trực tiếp hướng dẫn lực lượng triển khai quyết liệt cao điểm 45 ngày đêm."
+                    },
+                    {
+                        title: "Duy trì phường không ma túy năm 2026",
+                        desc: "Tham mưu thực hiện hiệu quả Nghị quyết số 02-NQ/TU và Nghị quyết 20-NQ/ĐU để kiềm chế, kéo giảm các loại tội phạm, đạt chỉ tiêu và hoàn thành các phương án chuyển hóa địa bàn phức tạp."
+                    },
+                    {
+                        title: "Xử lý hành chính & Quản lý đối tượng",
+                        desc: "Quản lý, cảm hóa, giáo dục người lầm lỗi, người được đặc xá tù tha trở về địa phương tái hòa nhập cộng đồng. Quản lý nghiêm ngặt đối tượng tâm thần, 'ngáo đá', người nghiện và người sử dụng ma túy."
+                    },
+                    {
+                        title: "Nâng cao hiệu quả Quản lý cư trú & Đề án 06",
+                        desc: "Quản lý tạm trú, tạm vắng tại chung cư, nhà cao tầng, căn hộ cho thuê. Đẩy mạnh Đề án 06 phục vụ quản lý, quản trị xã hội và cải cách hành chính. Tăng cường tuần tra kiểm soát nồng độ cồn, ma túy."
+                    },
+                    {
+                        title: "Huy động tuần tra nhân dân",
+                        desc: "Huy động các lực lượng quần chúng tham gia tuần tra phòng chống tội phạm. Đảm bảo thông tin liên lạc, thực hiện nghiêm túc chế độ báo cáo tiến độ cao điểm."
+                    }
+                ],
+                legalBasis: "Khoản 3 - Trang 3, 4 của Công văn số 512-CV/ĐU"
+            },
+            {
+                id: "quan-su",
+                name: "Ban Chỉ huy Quân sự Phường",
+                icon: "swords",
+                role: "Phối hợp vũ trang, bảo vệ mục tiêu",
+                tasks: [
+                    {
+                        title: "Bảo vệ các mục tiêu trọng điểm",
+                        desc: "Phối hợp với Công an bảo đảm an ninh, an toàn tuyệt đối các mục tiêu công trình trọng điểm, các sự kiện chính trị, kinh tế, văn hóa diễn ra trên địa bàn; ngăn chặn bạo loạn, biểu tình."
+                    },
+                    {
+                        title: "Phối hợp tuần tra kiểm soát (Nghị định 03)",
+                        desc: "Thực hiện tốt Nghị định số 03/2019/NĐ-CP của Chính phủ. Phối hợp tuần tra chung với Công an trên các tuyến trọng điểm, khu vực giáp ranh phức tạp để răn đe tội phạm."
+                    },
+                    {
+                        title: "Sẵn sàng phương tiện & Thu hồi vũ khí vật liệu nổ",
+                        desc: "Chuẩn bị sẵn sàng quân số, phương tiện cơ động hỗ trợ PCCC và CHCN. Tăng cường quản lý vũ khí, vật liệu nổ, công cụ hỗ trợ và thu gom số vũ khí còn sót ngoài nhân dân."
+                    }
+                ],
+                legalBasis: "Khoản 4 - Trang 4, 5 của Công văn số 512-CV/ĐU"
+            },
+            {
+                id: "chi-bo-kp",
+                name: "Cấp ủy 33 Chi bộ Khu phố",
+                icon: "home",
+                role: "Tuyên truyền & Giám sát cơ sở",
+                tasks: [
+                    {
+                        title: "Phát động phong trào Toàn dân bảo vệ ANTQ",
+                        desc: "Vận động nhân dân phát hiện, tố giác tội phạm ma túy, trộm cắp, cướp giật, cờ bạc, đề, mại dâm. Cảm hóa, giáo dục và giúp đỡ người cai nghiện tái hòa nhập cộng đồng ngay tại khu dân cư."
+                    },
+                    {
+                        title: "Phổ biến cảnh giác trong họp Chi bộ",
+                        desc: "Lồng ghép nội dung cao điểm vào các buổi họp chi bộ hàng tháng để đảng viên và nhân dân đề cao cảnh giác, phối hợp chặt chẽ với lực lượng Cảnh sát khu vực."
+                    },
+                    {
+                        title: "Xã hội hóa lắp đặt Camera an ninh",
+                        desc: "Tiếp tục vận động nhân dân đóng góp lắp đặt bổ sung hệ thống camera quan sát chất lượng cao tại các hẻm, tuyến đường thường xảy ra mất an ninh trật tự."
+                    }
+                ],
+                legalBasis: "Khoản 5 - Trang 5 của Công văn số 512-CV/ĐU"
+            },
+            {
+                id: "mat-tran",
+                name: "Mặt trận Tổ quốc & Đoàn thể",
+                icon: "heart-handshake",
+                role: "Tuyên truyền, vận động quần chúng",
+                tasks: [
+                    {
+                        title: "Phát huy vai trò người uy tín & tôn giáo",
+                        desc: "Tranh thủ tiếng nói của chức sắc, người có uy tín trong đồng bào dân tộc, tôn giáo tham gia tuyên truyền phòng chống ma túy, tệ nạn xã hội."
+                    },
+                    {
+                        title: "Ngày Chủ Nhật Xanh bảo vệ môi trường",
+                        desc: "Đặc biệt giao Đoàn Thanh niên làm nòng cốt duy trì mô hình 'Ngày Chủ Nhật Xanh' dọn dẹp vệ sinh môi trường, xóa các điểm rác tự phát, đảm bảo mỹ quan đô thị."
+                    },
+                    {
+                        title: "Hỗ trợ an sinh xã hội & vay vốn",
+                        desc: "Rà soát người thất nghiệp, số người cai nghiện trở về để phối hợp hỗ trợ vay vốn làm ăn, ổn định cuộc sống, tránh nguy cơ tái nghiện hoặc phạm pháp."
+                    }
+                ],
+                legalBasis: "Khoản 1 - Trang 1, 2 của Công văn số 512-CV/ĐU"
+            },
+            {
+                id: "ban-dang-ubkt",
+                name: "Ban Xây dựng Đảng & UBKT",
+                icon: "clipboard-check",
+                role: "Tuyên truyền & Giám sát kỷ luật",
+                tasks: [
+                    {
+                        title: "Đa dạng hóa hình thức tuyên truyền",
+                        desc: "Ban Xây dựng Đảng ủy phối hợp tuyên truyền cao điểm 45 ngày đêm bằng nhiều hình thức (truyền thống và công nghệ) phù hợp thực tiễn địa bàn."
+                    },
+                    {
+                        title: "Giám sát, kiểm tra tiến độ cao điểm",
+                        desc: "Ủy ban Kiểm tra Đảng ủy chủ trì kiểm tra, giám sát việc triển khai thực hiện nhiệm vụ của các chi bộ, đơn vị trong thời gian diễn ra cao điểm, kịp thời chấn chỉnh thiếu sót."
+                    },
+                    {
+                        title: "Văn phòng tham mưu giải quyết phát sinh",
+                        desc: "Văn phòng Đảng ủy phối hợp chặt chẽ cùng các cơ quan kịp thời tham mưu Thường trực chỉ đạo giải quyết nhanh các vấn đề phát sinh từ cơ sở."
+                    }
+                ],
+                legalBasis: "Khoản 6, 7, 8 - Trang 6 của Công văn số 512-CV/ĐU"
+            }
+        ];
+
+        // Khởi tạo giao diện
+        function initApp() {
+            renderTabs();
+            // Mặc định chọn tab đầu tiên
+            selectTab(unitsData[0].id);
+        }
+
+        // Tạo danh sách tab đơn vị bên sidebar
+        function renderTabs() {
+            const tabsContainer = document.getElementById("unit-tabs");
+            tabsContainer.innerHTML = "";
+
+            unitsData.forEach(unit => {
+                const button = document.createElement("button");
+                button.className = `w-full text-left p-4 rounded-xl transition-all flex items-start gap-3 hover:bg-slate-200/70 border border-transparent`;
+                button.id = `tab-btn-${unit.id}`;
+                button.onclick = () => selectTab(unit.id);
+
+                button.innerHTML = `
+                    <div class="p-2 rounded-lg bg-white shadow-sm text-slate-700 shrink-0" id="icon-container-${unit.id}">
+                        <i data-lucide="${unit.icon}" class="w-5 h-5"></i>
+                    </div>
+                    <div class="overflow-hidden">
+                        <h3 class="font-bold text-sm text-slate-800 truncate">${unit.name}</h3>
+                        <p class="text-xs text-slate-500 truncate mt-0.5">${unit.role}</p>
+                    </div>
+                `;
+                tabsContainer.appendChild(button);
+            });
+            lucide.createIcons();
+        }
+
+        // Chọn tab hiển thị nội dung
+        function selectTab(unitId) {
+            // Cập nhật trạng thái active bên sidebar
+            unitsData.forEach(unit => {
+                const btn = document.getElementById(`tab-btn-${unit.id}`);
+                const iconBox = document.getElementById(`icon-container-${unit.id}`);
+                if (unit.id === unitId) {
+                    btn.classList.add("bg-red-50", "border-red-200", "shadow-sm");
+                    btn.classList.remove("hover:bg-slate-200/70");
+                    iconBox.classList.add("bg-red-600", "text-white");
+                    iconBox.classList.remove("bg-white", "text-slate-700");
+                } else {
+                    btn.classList.remove("bg-red-50", "border-red-200", "shadow-sm");
+                    btn.classList.add("hover:bg-slate-200/70");
+                    iconBox.classList.remove("bg-red-600", "text-white");
+                    iconBox.classList.add("bg-white", "text-slate-700");
+                }
+            });
+
+            // Hiển thị nội dung chi tiết của tab được chọn
+            const unit = unitsData.find(u => u.id === unitId);
+            const contentArea = document.getElementById("tab-content-area");
+
+            let tasksHtml = "";
+            unit.tasks.forEach((task, index) => {
+                tasksHtml += `
+                    <div class="bg-slate-50 p-4 rounded-xl border border-slate-200/80 hover:border-red-200 transition-all flex gap-3">
+                        <div class="flex-shrink-0 w-6 h-6 rounded-full bg-red-600 text-white flex items-center justify-center text-xs font-bold mt-0.5">
+                            ${index + 1}
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-800 text-sm sm:text-base">${task.title}</h4>
+                            <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">${task.desc}</p>
+                        </div>
+                    </div>
+                `;
+            });
+
+            contentArea.innerHTML = `
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-200 pb-4 mb-6">
+                    <div>
+                        <span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-semibold bg-red-100 text-red-800 mb-2">
+                            <i data-lucide="shield" class="w-3.5 h-3.5"></i> Chỉ đạo phân công
+                        </span>
+                        <h2 class="text-xl sm:text-2xl font-black text-slate-800">${unit.name}</h2>
+                    </div>
+                    <div class="text-right sm:text-right">
+                        <span class="text-xs font-medium text-slate-500 block">Cơ sở pháp lý:</span>
+                        <span class="text-xs font-bold text-slate-700 bg-slate-100 px-2 py-1 rounded mt-1 inline-block">${unit.legalBasis}</span>
+                    </div>
+                </div>
+
+                <div class="mb-4">
+                    <h3 class="text-sm font-bold text-slate-500 uppercase tracking-wider mb-3">Vai trò chỉ đạo chính:</h3>
+                    <p class="text-slate-700 font-medium bg-red-50/50 border-l-4 border-red-500 p-3 rounded-r-lg text-sm sm:text-base">
+                        ${unit.role}
+                    </p>
+                </div>
+
+                <div class="space-y-3 mt-6">
+                    <h3 class="text-sm font-bold text-slate-500 uppercase tracking-wider mb-2">Nhiệm vụ, giải pháp chi tiết:</h3>
+                    ${tasksHtml}
+                </div>
+            `;
+            
+            lucide.createIcons();
+        }
+
+        // Chạy khi DOM sẵn sàng
+        window.onload = function() {
+            initApp();
+        };
+    </script>
+</body>
+</html>
